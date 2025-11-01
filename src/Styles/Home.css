@@ -1,0 +1,149 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Global body background to black */
+body, html {
+  background-color: #000;
+  color: white; /* Default text color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('/public/herosection.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+/* Hero Text */
+.hero-section h1 {
+  font-family: 'Po', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+/* RCB Poster Font Fallback */
+.rcb-poster-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Dressing Room Title */
+.dressing-room-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Dressing Room Highlight Colors */
+.text-danger {
+  color: #dc3545 !important; /* Bootstrap red */
+}
+
+.text-warning {
+  color: #ffc107 !important; /* Bootstrap yellow */
+}
+
+/* Section Headings */
+.section-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 2.5rem;
+  color: white;
+  margin-bottom:20 rem;
+}
+
+/* Cards */
+.custom-card {
+  background-color: #000;  /* Pure black, same as screen */
+  border: 1px solid whitesmoke; /* Smokewhite border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  border-radius: 25px;
+  width: 95%;
+  height: 300px;
+}
+
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.2);
+}
+
+/* Card Text */
+.card-title {
+  font-weight: 600;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Container-fluid padding fix for blog cards */
+.container-fluid {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Write Blog Section */
+.write-blog-section {
+  color: white;
+  padding: 5rem 2rem;
+  /* Removed bg-dark so background stays black from body */
+}
+
+.write-blog-section p,
+.write-blog-section .lead {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+  color: #ccc;
+}
+
+.write-blog-section .btn-outline-warning {
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.write-blog-section .btn-outline-warning:hover {
+  background-color: hwb(47 13% 12%);
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Responsive Fixes */
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .dressing-room-title {
+    font-size: 2.2rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+}

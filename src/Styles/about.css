@@ -1,0 +1,71 @@
+.about-page {
+  background-image: url('M-Chinnaswamy-Stadium.jpg'); /* Use an optimized image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* changed from height */
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  padding: 6rem 2rem 4rem; /* top and bottom padding to avoid overlap with header/footer */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  /* removed align-items: center to allow content to flow naturally */
+}
+
+.about-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  /* add a subtle shadow for better focus */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #e60026; /* RCB red */
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.text-warning {
+  color: #ffcc00; /* golden/yellow for contrast */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.8rem;
+  color: #f0f0f0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-overlay {
+    padding: 2rem 2rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+}

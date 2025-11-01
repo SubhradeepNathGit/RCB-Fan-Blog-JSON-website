@@ -1,0 +1,22 @@
+.footer {
+  background-color: #003049; /* Dark blue like your screenshot */
+  border-top: 4px solid #ffc107;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer ul li {
+  color: #ddd;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.footer a {
+  font-size: 1.1rem;
+}
+
+.footer a:hover {
+  color: #f8c000;
+}
