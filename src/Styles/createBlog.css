@@ -5,7 +5,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/Logo-change.jpg') !important; /* Ensure image is in public folder */
+  background-image: url('/LOGO.png') !important; /* Ensure image is in public folder */
   background-size: cover;
   background-position: center;
   opacity: 1;

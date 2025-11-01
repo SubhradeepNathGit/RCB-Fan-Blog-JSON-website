@@ -1,5 +1,5 @@
 .about-page {
-  background-image: url('M-Chinnaswamy-Stadium.jpg'); /* Use an optimized image path */
+  background-image: url('/M-Chinnaswamy-Stadium.jpg'); /* Use an optimized image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

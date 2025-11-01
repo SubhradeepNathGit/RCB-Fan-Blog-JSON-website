@@ -21,12 +21,6 @@ const Slider = () => {
       image: '/add2.png',
       // title: 'Third Slide',
       // description: 'This is the description for the third slide.'
-    },
-    {
-      id: 4,
-      image: '/advertisementbanner1.jpg',
-      // title: 'Third Slide',
-      // description: 'This is the description for the third slide.'
     }
   ];
 
