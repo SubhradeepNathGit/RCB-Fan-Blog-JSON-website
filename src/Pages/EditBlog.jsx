@@ -5,8 +5,8 @@ import { Form, Button, Alert } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../Styles/createBlog.css";
-import baseurl from "../Api/baseurl";
-import endpoint from "../Api/endpoint";
+import baseurl from "../API/baseUrl";
+import endpoint from "../API/endPoint";
 
 const EditBlog = () => {
   const { id } = useParams(); // Get blog ID from URL

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import baseurl from "../Api/baseurl"; // e.g., http://localhost:3001/
-import endpoint from "../Api/endpoint"; // e.g., blogs
+import baseurl from "../API/baseUrl"; // e.g., http://localhost:3001/
+import endpoint from "../API/endPoint"; // e.g., blogs
 import { Form, Button, Container, Card, Alert } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import baseurl from "../Api/baseurl";
-import endpoint from "../Api/endpoint";
+import baseurl from "../API/baseUrl";
+import endpoint from "../API/endPoint";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../Styles/blogDetails.css";

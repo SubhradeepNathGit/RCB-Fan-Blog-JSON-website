@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import axios from "axios";
-import baseurl from "../Api/baseurl";
-import endpoint from "../Api/endpoint";
+import baseurl from "../API/baseUrl";
+import endpoint from "../API/endPoint";
 import {
   Container,
   Card,
