@@ -1,12 +1,74 @@
-# React + Vite
+# 🏏 RCB Fan Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based blog application** dedicated to **Royal Challengers Bengaluru (RCB)** fans! ❤️💛  
+Built while practicing **CRUD (Create, Read, Update, Delete)** operations using **React** and **JSON Server**.  
+Users can read, post, edit, and delete blogs — all powered by a simple mock backend.
 
-Currently, two official plugins are available:
+> 🚀 **Live Demo:** [https://rcb-fan-blog-json-website-caft.vercel.app/](https://rcb-fan-blog-json-website-caft.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
+<p align="center">
+  <img src="./preview/home.png" width="45%" />
+  <img src="./preview/blog-details.png" width="45%" />
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Features
+
+-Create, Read, Update, and Delete (CRUD) blog posts
+-Dynamic routing for blog details
+-Simple and fast mock backend using JSON Server
+-Clean and minimal UI with intuitive navigation
+
+⚙️ Tech Stack
+Technology	Purpose
+-React.js	Frontend framework
+-JSON Server	Mock REST API for CRUD operations
+-React Router DOM	Routing and navigation
+-CSS / Bootstrap	Styling and layout
+-Vercel	Deployment platform
+
+Installation & Setup
+Follow these steps to run the project locally 👇
+
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/RCB-Fan-Blog-Website.git
+cd RCB-Fan-Blog-Website
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the JSON Server
+npx json-server --watch dB/db.json --port 5000
+
+
+Server will run at http://localhost:5000
+
+4️⃣ Run the React app
+npm start
+
+App will run at http://localhost:3000
+
+
+🌍 Deployment
+The project is live on Vercel — simple one-click deployment for React apps.
+
+💡 Learning Outcome
+
+This project helped me understand:
+
+CRUD operations with React
+
+Using JSON Server as a local REST API
+
+Handling routes and dynamic pages
+
+Deploying React apps on Vercel
+
+🏏 About the Project
+This was a personal learning project created while experimenting with React CRUD functionality.
+As an RCB supporter, I thought — why not make something fun and relatable while learning? ❤️💛
+
+
+⭐ If you like this project, don’t forget to star the repo!
