@@ -54,7 +54,7 @@ Server will run at http://localhost:3000
 4️⃣ Run the React app
 npm start
 
-App will run at http://localhost:3000
+App will run at http://localhost:5173
 
 
 🌍 Deployment
