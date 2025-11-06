@@ -1,4 +1,4 @@
-# 🏏 RCB Fan Blog Website
+# RCB Fan Blog Website
 
 A **React-based blog application** dedicated to **Royal Challengers Bengaluru (RCB)** fans! ❤️💛  
 Built while practicing **CRUD (Create, Read, Update, Delete)** operations using **React** and **JSON Server**.  
