@@ -4,11 +4,10 @@ A **React-based blog application** dedicated to **Royal Challengers Bengaluru (R
 Built while practicing **CRUD (Create, Read, Update, Delete)** operations using **React** and **JSON Server**.  
 Users can read, post, edit, and delete blogs — all powered by a simple mock backend.
 
-> 🚀 **Live Demo:** [https://rcb-fan-blog-json-website-caft.vercel.app/](https://rcb-fan-blog-json-website-caft.vercel.app/)
+> **Live Demo:** [https://rcb-fan-blog-json-website-caft.vercel.app/](https://rcb-fan-blog-json-website-caft.vercel.app/)
 
----
 
-## 📸 Preview
+##  Preview
 <p align="center">
   <img src="./preview/home.png" width="45%" />
   <img src="./preview/blog-details.png" width="45%" />
