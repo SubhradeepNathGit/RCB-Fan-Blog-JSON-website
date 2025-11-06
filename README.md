@@ -1,6 +1,6 @@
 # RCB Fan Blog Website
 
-A **React-based blog application** dedicated to **Royal Challengers Bengaluru (RCB)** fans! ❤️💛  
+A **React-based blog application** dedicated to **Royal Challengers Bengaluru (RCB)** fans!
 Built while practicing **CRUD (Create, Read, Update, Delete)** operations using **React** and **JSON Server**.  
 Users can read, post, edit, and delete blogs — all powered by a simple mock backend.
 
@@ -9,13 +9,20 @@ Users can read, post, edit, and delete blogs — all powered by a simple mock ba
 
 ##  Preview
 <p align="center">
-  <img src="./preview/home.png" width="45%" />
-  <img src="./preview/blog-details.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 135616.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 135636.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 135649.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 180427.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 175749.png" width="45%" />
+  <img src="./public/Screenshot 2025-11-06 180253.png" width="45%" />
+ 
+  
 </p>
 
 🧠 Features
 
 -Create, Read, Update, and Delete (CRUD) blog posts
+-Fully mobile and tablet responsive
 -Dynamic routing for blog details
 -Simple and fast mock backend using JSON Server
 -Clean and minimal UI with intuitive navigation
@@ -39,10 +46,10 @@ cd RCB-Fan-Blog-Website
 npm install
 
 3️⃣ Start the JSON Server
-npx json-server --watch dB/db.json --port 5000
+npx json-server --watch dB/db.json --port 3000
 
 
-Server will run at http://localhost:5000
+Server will run at http://localhost:3000
 
 4️⃣ Run the React app
 npm start
