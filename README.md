@@ -66,9 +66,5 @@ Handling routes and dynamic pages
 
 Deploying React apps on Vercel
 
-🏏 About the Project
-This was a personal learning project created while experimenting with React CRUD functionality.
-As an RCB supporter, I thought — why not make something fun and relatable while learning? ❤️💛
-
 
 ⭐ If you like this project, don’t forget to star the repo!
